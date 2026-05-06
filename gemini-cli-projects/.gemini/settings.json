@@ -1,0 +1,10 @@
+{
+"telemetry": {
+  "enabled": true,
+  "target": "gcp",
+  "otlpEndpoint": "http://${EXTERNAL_IP}:4318",
+  "otlpProtocol": "http",
+  "logPrompts": true,
+  "useCollector": true
+  }
+}
